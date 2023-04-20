@@ -4,8 +4,9 @@ import (
 	"context"
 	"net/http"
 
+	pb "api_gateway/pkg/order/pb"
+
 	"github.com/gin-gonic/gin"
-	"github.com/hellokvn/go-grpc-api-gateway/pkg/order/pb"
 )
 
 type CreateOrderRequestBody struct {

@@ -5,8 +5,9 @@ import (
 	"net/http"
 	"strings"
 
+	pb "api_gateway/pkg/auth/pb"
+
 	"github.com/gin-gonic/gin"
-	"github.com/hellokvn/go-grpc-api-gateway/pkg/auth/pb"
 )
 
 type AuthMiddlewareConfig struct {

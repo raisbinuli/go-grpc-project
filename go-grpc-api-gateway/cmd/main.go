@@ -3,11 +3,11 @@ package main
 import (
 	"log"
 
+	"api_gateway/pkg/auth"
+	"api_gateway/pkg/config"
+	"api_gateway/pkg/order"
+	"api_gateway/pkg/product"
 	"github.com/gin-gonic/gin"
-	"github.com/hellokvn/go-grpc-api-gateway/pkg/auth"
-	"github.com/hellokvn/go-grpc-api-gateway/pkg/config"
-	"github.com/hellokvn/go-grpc-api-gateway/pkg/order"
-	"github.com/hellokvn/go-grpc-api-gateway/pkg/product"
 )
 
 func main() {

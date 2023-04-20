@@ -3,8 +3,9 @@ package product
 import (
 	"fmt"
 
-	"github.com/hellokvn/go-grpc-api-gateway/pkg/config"
-	"github.com/hellokvn/go-grpc-api-gateway/pkg/product/pb"
+	"api_gateway/pkg/config"
+	pb "api_gateway/pkg/product/pb"
+
 	"google.golang.org/grpc"
 )
 

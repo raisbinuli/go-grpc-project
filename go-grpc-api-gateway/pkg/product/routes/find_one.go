@@ -5,8 +5,8 @@ import (
 	"net/http"
 	"strconv"
 
+	pb "api_gateway/pkg/product/pb"
 	"github.com/gin-gonic/gin"
-	"github.com/hellokvn/go-grpc-api-gateway/pkg/product/pb"
 )
 
 func FineOne(ctx *gin.Context, c pb.ProductServiceClient) {
