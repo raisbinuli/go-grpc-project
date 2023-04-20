@@ -5,7 +5,6 @@ go 1.20
 require (
 	github.com/golang-jwt/jwt v3.2.2+incompatible
 	github.com/golang/protobuf v1.5.2
-	github.com/hellokvn/go-grpc-auth-svc v0.0.0-20220329201106-de9b08c8e812
 	github.com/spf13/viper v1.15.0
 	golang.org/x/crypto v0.8.0
 	google.golang.org/grpc v1.54.0

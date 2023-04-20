@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package order;
 
-//option go_package = "./pkg/order/pb";
+option go_package = "./pkg/order/pb";
 
 service OrderService {
   rpc CreateOrder(CreateOrderRequest) returns (CreateOrderResponse) {}
