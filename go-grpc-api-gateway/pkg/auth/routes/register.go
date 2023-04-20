@@ -4,8 +4,8 @@ import (
 	"context"
 	"net/http"
 
-	"github.com/YOUR_USERNAME/go-grpc-api-gateway/pkg/auth/pb"
 	"github.com/gin-gonic/gin"
+	"github.com/hellokvn/go-grpc-api-gateway/pkg/auth/pb"
 )
 
 type RegisterRequestBody struct {

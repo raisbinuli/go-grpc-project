@@ -14,6 +14,7 @@ require (
 	github.com/goccy/go-json v0.10.0 // indirect
 	github.com/golang/protobuf v1.5.3 // indirect
 	github.com/hashicorp/hcl v1.0.0 // indirect
+	github.com/hellokvn/go-grpc-api-gateway v0.0.0-20220330165749-36bd99b76358 // indirect
 	github.com/json-iterator/go v1.1.12 // indirect
 	github.com/klauspost/cpuid/v2 v2.0.9 // indirect
 	github.com/leodido/go-urn v1.2.1 // indirect
